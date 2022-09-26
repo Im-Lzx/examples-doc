@@ -2,28 +2,28 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: LzxDemos
+  text: Everything Is Possible!
+  tagline: 一些记录和想法吧！想到什么就记什么！
   image:
-    src: img/logo1.png
-    alt: VitePress
+    src: img/logo2.png
+    alt: LzxDemos
   actions:
     - theme: brand
       text: Get Started
       link: /guide/index
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://im-lzx.github.io
 
 features:
-  - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+  - icon: 📝
+    title: Record
+    details: 当做一个随手记录
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: Vite + Vue3
+    details: 采用最新版的Vite + Vue3
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: Others
+    details: 其他的一切吧，没想好呢！
 ---
