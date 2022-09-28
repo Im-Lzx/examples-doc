@@ -3,6 +3,7 @@ export default {
     description: 'Just some Demos',
     appearance: true, // 黑暗模式
     lastUpdated: true, // 最后更新时间
+    outDir: "../dist",
     themeConfig: {
         siteTitle: 'Lzx Demo',
         logo: 'img/logo2.png',
