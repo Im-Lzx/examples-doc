@@ -6,7 +6,7 @@ export default {
     themeConfig: {
         siteTitle: 'Lzx Demo',
         logo: 'img/logo2.png',
-        outlineTitle: 'In hac pagina',
+        outlineTitle: '本页目录',
         nav: [
             { text: '文档', link: '/guide/index' },
             { text: 'Vue', link: '/vue/index' },
@@ -27,10 +27,16 @@ export default {
         ],
         sidebar: [
             {
-                text: 'Introduction',
+                text: '开始',
                 items: [
-                    { text: 'Docs for', link: '/guide/index' },
+                    { text: '简介', link: '/guide/index' },
                     { text: 'QA', link: '/QA/index' },
+                ]
+            },
+            {
+                text: 'Future',
+                items: [
+                    { text: 'Todos', link: '/guide/todos' },
                 ]
             },
         ],
