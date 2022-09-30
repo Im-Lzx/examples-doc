@@ -23,12 +23,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@top-color:red;
-@left-color:green;
-@right-color:blue;
-@bottom-color:yellow;
 ol {
   flex-wrap: wrap;
+  --top-color: var(--root-red);
+  --left-color: var(--root-green);
+  --right-color: var(--root-blue);
+  --bottom-color: var(--root-yellow);
 }
 li {
   width: 0;
@@ -41,37 +41,37 @@ li {
   margin-right: 50px;
 }
 .all {
-  border-top-color: @top-color;
-  border-left-color: @left-color;
-  border-right-color: @right-color;
-  border-bottom-color: @bottom-color;
+  border-top-color: var(--top-color);
+  border-left-color: var(--left-color);
+  border-right-color: var(--right-color);
+  border-bottom-color: var(--bottom-color);
 }
 .top {
-  border-top-color: @top-color;
+  border-top-color: var(--top-color);
 }
 .left {
-  border-left-color: @left-color;
+  border-left-color: var(--left-color);
 }
 .right {
-  border-right-color: @right-color;
+  border-right-color: var(--right-color);
 }
 .bottom {
-  border-bottom-color: @bottom-color;
+  border-bottom-color: var(--bottom-color);
 }
 .topLeft {
-  border-top-color: @left-color;
-  border-left-color: @left-color;
+  border-top-color: var(--left-color);
+  border-left-color: var(--left-color);
 }
 .topRight {
-  border-top-color: @right-color;
-  border-right-color: @right-color;
+  border-top-color: var(--right-color);
+  border-right-color: var(--right-color);
 }
 .bottomLeft {
-  border-bottom-color: @top-color;
-  border-left-color: @top-color;
+  border-bottom-color: var(--top-color);
+  border-left-color: var(--top-color);
 }
 .bottomRight {
-  border-bottom-color: @bottom-color;
-  border-right-color: @bottom-color;
+  border-bottom-color: var(--bottom-color);
+  border-right-color: var(--bottom-color);
 }
 </style>

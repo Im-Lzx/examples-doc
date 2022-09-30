@@ -14,6 +14,7 @@ export default [
             { text: 'progressBar-进度条', link: '/CssDemo/progressBar' },
             { text: 'rectangle-定宽正方形', link: '/CssDemo/rectangle' },
             { text: 'textWrap-文字环绕', link: '/CssDemo/textWrap' },
+            { text: 'triangle-三角形', link: '/CssDemo/triangle' },
             { text: 'waterWaves-水动波纹', link: '/CssDemo/waterWaves' },
         ]
     },
