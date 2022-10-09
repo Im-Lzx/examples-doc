@@ -8,14 +8,14 @@ export default [
     {
         text: 'Css 示例',
         items: [
-            { text: 'colourBar-彩带', link: '/CssDemo/colourBar' },
-            { text: 'conicGradient-角向渐变', link: '/CssDemo/conicGradient' },
-            { text: 'filter-背景虚化', link: '/CssDemo/filterBlur' },
-            { text: 'progressBar-进度条', link: '/CssDemo/progressBar' },
-            { text: 'rectangle-定宽正方形', link: '/CssDemo/rectangle' },
-            { text: 'textWrap-文字环绕', link: '/CssDemo/textWrap' },
-            { text: 'triangle-三角形', link: '/CssDemo/triangle' },
-            { text: 'waterWaves-水动波纹', link: '/CssDemo/waterWaves' },
+            { text: 'colourBar-彩带', link: '/cssDemo/colourBar' },
+            { text: 'conicGradient-角向渐变', link: '/cssDemo/conicGradient' },
+            { text: 'filter-背景虚化', link: '/cssDemo/filterBlur' },
+            { text: 'progressBar-进度条', link: '/cssDemo/progressBar' },
+            { text: 'rectangle-定宽正方形', link: '/cssDemo/rectangle' },
+            { text: 'textWrap-文字环绕', link: '/cssDemo/textWrap' },
+            { text: 'triangle-三角形', link: '/cssDemo/triangle' },
+            { text: 'waterWaves-水动波纹', link: '/cssDemo/waterWaves' },
         ]
     },
     {
