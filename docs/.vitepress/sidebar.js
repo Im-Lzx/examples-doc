@@ -19,6 +19,12 @@ export default [
         ]
     },
     {
+        text: 'Deploy 项目部署',
+        items: [
+            { text: 'remote-部署', link: '/deploy/deployRemote' },
+        ]
+    },
+    {
         text: 'Future',
         items: [
             { text: 'Todos', link: '/guide/todos' },
