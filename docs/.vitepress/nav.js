@@ -5,8 +5,8 @@ export default [
         text: '前端三剑客',
         items: [
             { text: 'HTML', link: '/html' },
-            { text: 'CSS', link: '/css' },
-            { text: 'JavaScript', link: '/js' },
+            { text: 'CSS', link: '/cssDemo/colourBar' },
+            { text: 'JavaScript', link: '/jsDemo/eventBus' },
         ]
     },
     {

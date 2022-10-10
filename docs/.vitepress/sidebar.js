@@ -19,6 +19,14 @@ export default [
         ]
     },
     {
+        text: 'javascript 示例',
+        items: [
+            { text: 'Utils方法', link: '/jsDemo/utils' },
+            { text: '事件总线', link: '/jsDemo/eventBus' },
+            { text: '节流与防抖', link: '/jsDemo/throttle&debounce' },
+        ]
+    },
+    {
         text: 'Deploy 项目部署',
         items: [
             { text: 'remote-部署', link: '/deploy/deployRemote' },
