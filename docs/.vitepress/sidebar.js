@@ -23,7 +23,7 @@ export default [
         items: [
             { text: 'Utils方法', link: '/jsDemo/utils' },
             { text: '事件总线', link: '/jsDemo/eventBus' },
-            { text: '节流与防抖', link: '/jsDemo/throttle&debounce' },
+            { text: '节流与防抖', link: '/jsDemo/throttleDebounce' },
         ]
     },
     {
