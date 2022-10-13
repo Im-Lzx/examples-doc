@@ -24,6 +24,7 @@ export default [
             { text: 'Utils方法', link: '/jsDemo/utils' },
             { text: '事件总线', link: '/jsDemo/eventBus' },
             { text: '节流与防抖', link: '/jsDemo/throttleDebounce' },
+            { text: 'i18n', link: '/jsDemo/i18n' },
         ]
     },
     {
